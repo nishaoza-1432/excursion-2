@@ -28,10 +28,19 @@ body{
     color: aquamarine;
 }
 
+
  /* footer */
 
 .footer{
     font-size: 21px;
     color: grey;
     text-align: right;
+}
+
+@media (max-width :700px){
+    .image img{
+        width:200px;
+        height:150px;
+       }
+
 }
